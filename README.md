@@ -1,4 +1,4 @@
-# Simple PHP MVC Blog System
+# Simple blog en PHP MVC 
 
 
 ## Description
