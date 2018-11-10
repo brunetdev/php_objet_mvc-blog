@@ -1,9 +1,8 @@
 <?php
 /**
- * @author           Pierre-Henry Soria <phy@hizup.uk>
- * @copyright        (c) 2015-2017, Pierre-Henry Soria. All Rights Reserved.
- * @license          Lesser General Public License <http://www.gnu.org/copyleft/lesser.html>
- * @link             http://hizup.uk
+ * @author           jonathan brunet
+ * @copyright        (c) 2017 Jonathan Brunet <http://www.brunetdev.com>
+ * @link             http://www.brunetdev.com
  */
 ?>
 <?php require 'inc/header.php' ?>
@@ -11,11 +10,11 @@
 
 <form action="" method="post">
 
-    <p><label for="title">Title:</label><br />
+    <p><label for="title">Titre:</label><br />
         <input type="text" name="title" id="title" required="required" />
     </p>
 
-    <p><label for="body">Body:</label><br />
+    <p><label for="body">Contenu:</label><br />
         <textarea name="body" id="body" rows="5" cols="35" required="required"></textarea>
     </p>
 

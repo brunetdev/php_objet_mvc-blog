@@ -3,66 +3,55 @@
 
 ## Description
 
-This *PHP Blog System* has an MVC pattern, uses Traits (PHP 5.4), Namespace (PHP 5.3), Singleton pattern, PDO (PHP 5.1) and the new PHP Password Hashing feature (PHP 5.5).
+Ce blog PHP a un modèle MVC. Il utilise Trait PHP 5.4 et PDO (PHP 5.1) ainsi que la fonctionnalité de hachage du mot de passe PHP (PHP 5.5).
 
-The project was a *PHP Challenge Project* I have done.
+Ce projet a été réaliser sans framework dans le cadre de ma formation pour apprendre le PHP orienté objet.
 
-
-## Why this MVC Blog System can be very Useful for You?
-
-If you need to code a simple website under a Professional and very nice/clean code (as I really enjoy doing), this script will be very useful in order to *start on good basis* and *save time and money*.
-
-However, if you need to build a blog system, again this project can be used as a *framework* to start your project easily under a *good development pattern* and *good development practice* and organization.
+Il est composé d'une parti admin ou l'utilisateur peut poster des articles et d'une parti visiteur ou celui-ci peut visualisé les articles.
 
 
-## Requirements that were Requested for the Project
+## Pourquoi ce blog?
 
-### Requirements
+J'ai voulu faire un site Web simple, agréable, propre et très utile pour démarrer sur de bonnes bases.
+Il permet d'économiser du temps et donc de l'argent lors de demande de développement future pour un client potentiel.
 
-* The project should be written in object-oriented PHP targeting version 5.5 or higher
-* It should be all self-written, no existing frameworks or libraries
-* It should have good security (e.g., hashed passwords, protect against SQL injection, shouldn't have any error when we try to change URL query strings or to hack it, etc)
-* Should use a MySQL database to store admin account and article data
+En effet si un jours j'ai besoin de créer un blog, ce projet peut à nouveau être utilisé comme cadre pour démarrer un projet facilement avec un modèle de développement et des pratiques ainsi que une bonne organisation de développement .
 
-### Specification
 
-*Build a simple blog with the following functionalities*
+## Besoins requis pour le projet
+
+### Exigences
+
+* Le projet est écrit en PHP orienté objet version 5.5 ou supérieure.
+* Il est entièrement écrit à la main, pas de framework ou de bibliothèque existant
+* Il a une bonne sécurité (par exemple, mots de passe hachés, protection contre l'injection SQL, ne doit pas avoir d'erreur lorsque nous essayons de changer les chaînes de requête d'URL ou de les pirater, etc.)
+* Il utilise une base de données MySQL pour stocker les données de compte et d'article d'administrateur
+
+### Spécification
+
+*Construisez un blog simple avec les fonctionnalités suivantes*
 
 #### The Frontend
 
-* List of blog articles showing the **title**, **body** truncated to 100 characters, and **date**. It should show only the latest 5 articles
-* Single blog article showing the **title**, **full body**, and the **date**
+* Liste des articles de blog présentant le titre , le corps tronqué à 100 caractères et la date . Il montre que les 5 derniers articles
+* Article de blog unique montrant le titre , le corps entier et la date
 
 #### The Backend
 
-* List of all the blog articles
-* Possibility to add a new blog article with a title and body. The title should allow a maximum of 50 characters
-* Possibility to edit an existing blog article
-* Possibility to delete an article
-* Logout feature for the admin user
-
-HTML and CSS code should be kept to the minimum needed to make the website functional – This project is purely to assess how you approach the problem and not how good it looks.
+* Liste de tous les articles de blog
+* Possibilité d'ajouter un nouvel article de blog avec un titre et un corps. Le titre ne peut avoir un maximum de 50 caractères
+* Possibilité de modifier un article de blog existant
+* Possibilité de supprimer un article
+* Fonction de déconnexion pour l'administrateur
 
 
-## Server Requirements of the Web App
-
-* **Application Server** PHP 5.5.0 or higher.
-
-* **PHP Extension** mbstring
-
-* **Database MySQL/MariaDB 5** or higher.
-
+La mise en page est très sommaire et necessite un travail de design
 
 ## The Author
 
-[Pierre-Henry Soria](http://ph7.me)
+[Jonathan Brunet](http://www.brunetdev.com)
 
 
 ## Contact the Author
 
-By email at: *phy [AT] hizup [D0T] uk*
-
-
-## License
-
-This blog system (PHP script) is under [Lesser General Public License](http://www.gnu.org/copyleft/lesser.html) (LGPL); See the LICENSE.txt file for more information.
+By email at: *brunetdev@gmail.com*

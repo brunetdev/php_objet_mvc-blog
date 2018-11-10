@@ -1,9 +1,8 @@
 <?php
 /**
- * @author           Pierre-Henry Soria <phy@hizup.uk>
- * @copyright        (c) 2015-2017, Pierre-Henry Soria. All Rights Reserved.
- * @license          Lesser General Public License <http://www.gnu.org/copyleft/lesser.html>
- * @link             http://hizup.uk
+ * @author           jonathan brunet
+ * @copyright        (c) 2017 Jonathan Brunet <http://www.brunetdev.com>
+ * @link             http://www.brunetdev.com
  */
 ?>
 <?php require 'inc/header.php' ?>
@@ -15,7 +14,7 @@
         <input type="email" name="email" id="email" required="required" />
     </p>
 
-    <p><label for="password">Password:</label><br />
+    <p><label for="password">mot de passe:</label><br />
         <input type="password" name="password" id="password" required="required" />
     </p>
 

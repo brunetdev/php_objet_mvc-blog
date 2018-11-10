@@ -1,5 +1,5 @@
-- Please note that you need PHP 5.5 or higher to execute the script
-- Please create a database name/user and exucute "db.sql" first
-- To change the MySQL connection information, please edit /Engine/Config.php
-- Admin login (email/password) is: test@test.com / pwd123
-- Navigation Tip. On the website, there is no logo or "Homepage" link. To come back to the homepage, please click on the "Simple Blog" link located in the bottom page
+- Veuillez noter que vous avez besoin de PHP 5.5 ou supérieur pour exécuter le script.
+- créer la base de données
+- Changer la configuration dans ce répertoire /Engine/Config.php
+- l'identifiant et mot de passe sont les suivants: test@test.com / pwd123
+- vous pouvez ensuite naviguer sur le site via cette adresse http://localhost/PHP-MVC-Blog-System/index.php

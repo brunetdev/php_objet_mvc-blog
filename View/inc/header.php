@@ -1,17 +1,16 @@
 <?php
 /**
- * @author           Pierre-Henry Soria <phy@hizup.uk>
- * @copyright        (c) 2015-2017, Pierre-Henry Soria. All Rights Reserved.
- * @license          Lesser General Public License <http://www.gnu.org/copyleft/lesser.html>
- * @link             http://hizup.uk
+ * @author           jonathan brunet
+ * @copyright        (c) 2017 Jonathan Brunet <http://www.brunetdev.com>
+ * @link             http://www.brunetdev.com
  */
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <title><?=\TestProject\Engine\Config::SITE_NAME?></title>
-        <meta name="author" content="Pierre-Henry Soria" />
+        <meta name="author" content="Jonathan Brunet" />
         <link rel="stylesheet" href="<?=ROOT_URL?>static/style.css" />
     </head>
     <body>

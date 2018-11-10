@@ -1,15 +1,14 @@
 <?php
 /**
- * @author           Pierre-Henry Soria <phy@hizup.uk>
- * @copyright        (c) 2015-2017, Pierre-Henry Soria. All Rights Reserved.
- * @license          Lesser General Public License <http://www.gnu.org/copyleft/lesser.html>
- * @link             http://hizup.uk
+ * @author           jonathan brunet
+ * @copyright        (c) 2017 Jonathan Brunet <http://www.brunetdev.com>
+ * @link             http://www.brunetdev.com
  */
 ?>
 <?php require 'inc/header.php' ?>
 
-<h1>Page Not Found</h1>
+<h1>Page introuvable</h1>
 
-<p>Whoops! Sorry but this page doesn't seem to exist.</p>
+<p>Whoops! Désolée cette page n'existe pas.</p>
 
 <?php require 'inc/footer.php' ?>
