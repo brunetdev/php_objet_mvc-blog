@@ -1,4 +1,4 @@
-# Simple blog en PHP MVC 
+# Simple blog en PHP MVC
 
 
 ## Description
@@ -12,40 +12,39 @@ Il est composé d'une parti admin ou l'utilisateur peut poster des articles et d
 
 ## Pourquoi ce blog?
 
-J'ai voulu faire un site Web simple, agréable, propre et très utile pour démarrer sur de bonnes bases.
+J'ai voulu faire un site web, agréable, propre et très utile pour démarrer sur de bonnes bases.
 Il permet d'économiser du temps et donc de l'argent lors de demande de développement future pour un client potentiel.
 
-En effet si un jours j'ai besoin de créer un blog, ce projet peut à nouveau être utilisé comme cadre pour démarrer un projet facilement avec un modèle de développement et des pratiques ainsi que une bonne organisation de développement .
+En effet si un jours j'ai besoin de créer un blog, ce projet peut être utilisé comme cadre pour démarrer un projet avec un modèle de développement pratiques et bien organisé.
 
 
 ## Besoins requis pour le projet
 
-### Exigences
+### Description
 
-* Le projet est écrit en PHP orienté objet version 5.5 ou supérieure.
+* Le projet est écrit en PHP orienté objet version 7.1.
 * Il est entièrement écrit à la main, pas de framework ou de bibliothèque existant
-* Il a une bonne sécurité (par exemple, mots de passe hachés, protection contre l'injection SQL, ne doit pas avoir d'erreur lorsque nous essayons de changer les chaînes de requête d'URL ou de les pirater, etc.)
-* Il utilise une base de données MySQL pour stocker les données de compte et d'article d'administrateur
+* Il a une bonne sécurité (par exemple, mots de passe hachés, protection contre l'injection SQL)
+* Il utilise une base de données MySQL pour stocker les données du compte administrateur et les articles
 
-### Spécification
 
-*Construisez un blog simple avec les fonctionnalités suivantes*
-
-#### The Frontend
+#### le Frontend
 
 * Liste des articles de blog présentant le titre , le corps tronqué à 100 caractères et la date . Il montre que les 5 derniers articles
-* Article de blog unique montrant le titre , le corps entier et la date
+* Affiche les articles avec le titre , le corps de l'article et sa date d'édition
 
 #### The Backend
 
-* Liste de tous les articles de blog
-* Possibilité d'ajouter un nouvel article de blog avec un titre et un corps. Le titre ne peut avoir un maximum de 50 caractères
-* Possibilité de modifier un article de blog existant
-* Possibilité de supprimer un article
-* Fonction de déconnexion pour l'administrateur
+* Liste tous les articles du blog
+* Ajouter un nouvel article de blog avec un titre et le contenu de l'article. Le titre ne peut avoir maximum 50 caractères
+* Modifier un article de blog existant
+* Supprimer un article
+* Connexion et déconnexion de l'administrateur
 
 
-La mise en page est très sommaire et necessite un travail de design
+## chose à faire 
+
+La mise en page est très sommaire et nécessite un travail de design
 
 ## The Author
 
