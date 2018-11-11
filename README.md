@@ -42,15 +42,14 @@ En effet si un jours j'ai besoin de créer un blog, ce projet peut être utilis�
 * Connexion et déconnexion de l'administrateur
 
 
-## chose à faire 
+## chose à faire
 
 La mise en page est très sommaire et nécessite un travail de design
 
-## The Author
 
-[Jonathan Brunet](http://www.brunetdev.com)
+Vous pouvez en savoir plus sur moi en cliquant sur mon nom [Jonathan Brunet](http://www.brunetdeveloppeur.com) :)
 
 
-## Contact the Author
+## Contact
 
-By email at: *brunetdev@gmail.com*
+Pour plus de précision vous pouvez toujours me contacter à l'adresse suivante: *brunet.dev@gmail.com*
